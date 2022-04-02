@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./general.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <title>Form</title>
+</head>
+<body>
+    <form action="" method="get"> 
+        <span>Username</span>
+        <input type="text">
+        <span>Password</span>
+        <input type="password">
+        <span>Tell about yourself</span>
+        <textarea rows="5" cols="5">Your text</textarea>
+        <span>Location</span>
+        <select size="1">
+            <option value="Vitebsk">Vitebsk</option>
+            <option value="Grodno">Grodno</option>
+            <option value="Mogilev">Mogilev</option>
+            <option value="Minsk">Minsk</option>
+            <option value="Brest">Brest</option>
+            <option value="Gomel">Gomel</option>
+        </select>
+        <span>What do you study?</span>
+        <div class="ChooseTechnologies">
+            <p><input type="checkbox" class="checkbox">HTML and CSS</p>
+            <p><input type="checkbox" class="checkbox">Preprocessor</p>
+            <p><input type="checkbox" class="checkbox">JS</p>
+            <p><input type="checkbox" class="checkbox">React / Angular / View</p>
+        </div>
+        <span>Gender</span>
+        <div class="ChooseGender">
+            <p><input type="radio" class="radio">Female</p>
+            <p><input type="radio" class="radio">Male</p>
+        </div>
+        <input type="submit" value="Submit" class="btn">
+    </form>
+</body>
+</html>

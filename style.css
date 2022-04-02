@@ -1,0 +1,83 @@
+*, *:before, *:after {
+    box-sizing: border-box
+}
+
+body {
+    background: linear-gradient(45deg, pink, #bde4f7);
+    font-family: Josefin Sans;
+}
+
+form {
+    background-color: #baadf1;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.233);
+    width: 520px;
+    height: 640px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: calc(50% - 320px);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+}
+
+input {
+    margin: 0 auto;
+    width: 250px;
+    margin-bottom: 7px;
+    outline: none;
+    border-radius: 10px;
+    border: none;
+    padding: 5px;
+}
+
+span {
+    font-size: 20px;
+}
+
+textarea {
+    margin-bottom: 7px;
+    outline: none;
+    border-radius: 5px;
+    border: 3px;
+    padding: 5px;
+}
+
+select {
+    margin-bottom: 7px;
+    outline: none;
+    border-radius: 5px;
+    border: 3px;
+    padding: 5px;
+}
+
+.ChooseGender {
+    text-align: left;
+}
+
+.radio {
+    width: auto;
+    margin-right: 20px;
+}
+
+.ChooseTechnologies {
+    text-align: left;
+}
+
+.checkbox {
+    width: auto;
+    margin-right: 20px;
+}
+
+.btn {
+    transition-duration: 0.4s;
+    background: linear-gradient(45deg, pink, #bde4f7);
+    color: black;
+}
+
+.btn:hover {
+    background: linear-gradient(-45deg, pink, #bde4f7);
+    color: black;
+}
